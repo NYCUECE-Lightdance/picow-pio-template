@@ -58,7 +58,7 @@ All the dependencies will be automatically installed during the first build.
 
 ### (Build and) Upload Program
 
-After compilation:
+You can (build and) upload the program after building:
 
 1. Ensure the Pico W is properly connected and in BOOTSEL mode
 2. Click "Upload" in the PlatformIO panel
@@ -68,6 +68,8 @@ An alternative command line method is to run:
 ```bash
 pio run --target upload
 ```
+
+Sometimes you may need to manually set the serial port when uploading.  
 
 ### Monitor Output
 
@@ -111,7 +113,7 @@ Currently, we split the storage as `Sketch: 1MB`, `FS: 1MB`.
 
 - **EasyButton** - Simplified button operations
 - **ArduinoJson** - JSON data processing
-- **FastLED** - High-performance LED control
+- **FastLED** - For WS2812 LEDs control
 - **Adafruit SSD1306** - OLED display driver
 
 ## Start Developing
