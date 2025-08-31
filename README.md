@@ -107,7 +107,9 @@ picow-pio-template/
 - `lib_deps`: Required libraries
 
 The flash size of Raspberry Pi Pico W is `2MB`.  
-Currently, we split the storage as `Sketch: 1MB`, `FS: 1MB`.
+Currently, we split the storage as `Sketch: 1MB`, `FS: 1MB`.  
+
+For more configuration options, refer to the [Updating platformio.ini to use the proper platform](https://github.com/earlephilhower/arduino-pico/blob/master/docs/platformio.rst#updating-platformioini-to-use-the-proper-platform).  
 
 ### Dependencies
 
